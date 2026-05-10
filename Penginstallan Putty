@@ -1,0 +1,10 @@
+1. Klik Putty dua kali lalu akan muncul tampilan seperti gambar dibawah, kemudian klik Enter
+2. Pilih penyimpanan file Putty sesuai komputer/laptop masing-masing
+3. Open aplikasi Putty yang sudah terinstall maka akan muncul gambar dibawah ini lalu klik host
+name atau IP Adress sesuai jaringan yang di gunakan pasa ubuntu server
+Setelah menulis host name 192.168.0.33 kemudian klik open
+4. Pilih menu Accept
+5. Tampilan Putty setelah input IP Adress yang digunakan, input username yang sama dengan
+username Ubuntu dan Password Ubuntu > Enter
+6. Konfigurasi Ubuntu dengan Putty berhasil
+7. IP Adress yang di ubuntu sama dengan yang ada di aplikasi Putty yaitu 192.168.0.33
