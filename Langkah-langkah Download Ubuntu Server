@@ -1,0 +1,25 @@
+1. Download Ubuntu server versi 26.04 LTS
+2. Download Putty
+3. Download versi sesuai komputer/laptop
+4. Pembuatan Virtual Machine di VirtualBox untuk Ubuntu Server
+5. Setting Processor dan base Memori
+6. Tampilan Virtual Machine
+7. Setting Network untuk Adapter 1 dan Adapter 2
+8. Instalasi Ubuntu Serves, pilih Try or Install Server. Pilih done lalu klik enter
+9. Tampilan setelah di enter
+10. Pilih bahasa english> enter dan selanjutnya klik enter
+11. Tunggu sampai muncul IP adress yang digunakan
+12. Next
+13. Klik Done
+14. Klik CONTINUE > Enter
+15. Membuat Name, Username, dan Password anda pada Ubuntu Server lalu klik enter
+16. Klik CONTINUE
+17. Disini anda akan menginstall SSH servernya. Klik Enter lalu Done
+18. Setelah klik Done akan muncul gambar seperti di bawah ini. Tunggu sampai muncul tulisan Reboot Now > Enter
+19. Tunggu sebentar
+20. Silahkan login Username dan Password yang sudah didaftarkan
+21. Tulis perintah LS dan SSH > Enter
+Tulis ifconfig untuk melihat SSH lalu muncul untuk perintah install nett tools isntall nett-tools
+dengan perintah sudo apt install net-tools > Enter input Password > Enter
+22. Setelah berhasil terinstall klik clear untuk keluar dari penginstallan neet tools
+23. Klik ifconfig > enter untuk melihat IP Adressdi baris ketiga 10.0.2.15 penginstallan Ubuntu dan SSH sudah selesai
