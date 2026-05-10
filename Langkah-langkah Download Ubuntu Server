@@ -1,25 +1,29 @@
-1. Download Ubuntu server versi 26.04 LTS
-2. Download Putty
-3. Download versi sesuai komputer/laptop
-4. Pembuatan Virtual Machine di VirtualBox untuk Ubuntu Server
-5. Setting Processor dan base Memori
-6. Tampilan Virtual Machine
-7. Setting Network untuk Adapter 1 dan Adapter 2
-8. Instalasi Ubuntu Serves, pilih Try or Install Server. Pilih done lalu klik enter
-9. Tampilan setelah di enter
-10. Pilih bahasa english> enter dan selanjutnya klik enter
-11. Tunggu sampai muncul IP adress yang digunakan
-12. Next
-13. Klik Done
-14. Klik CONTINUE > Enter
-15. Membuat Name, Username, dan Password anda pada Ubuntu Server lalu klik enter
-16. Klik CONTINUE
-17. Disini anda akan menginstall SSH servernya. Klik Enter lalu Done
-18. Setelah klik Done akan muncul gambar seperti di bawah ini. Tunggu sampai muncul tulisan Reboot Now > Enter
-19. Tunggu sebentar
-20. Silahkan login Username dan Password yang sudah didaftarkan
-21. Tulis perintah LS dan SSH > Enter
-Tulis ifconfig untuk melihat SSH lalu muncul untuk perintah install nett tools isntall nett-tools
-dengan perintah sudo apt install net-tools > Enter input Password > Enter
-22. Setelah berhasil terinstall klik clear untuk keluar dari penginstallan neet tools
-23. Klik ifconfig > enter untuk melihat IP Adressdi baris ketiga 10.0.2.15 penginstallan Ubuntu dan SSH sudah selesai
+1. Download Ubuntu server versi 26.04 LTS melalui Chrome
+2. Lalu lanjutkan dengan mengunduh puTTY
+3. Unduh versi puTTY sesuai kapasitas laptop atau komputer
+4. Pembuatan VM(Virtual Machine) di virtual box untuk ubuntu server yang telah di unduh
+5. Masuk ke bagian hardware untuk menyetting processor dan base memory6. Tampilan Virtual Machine
+6. Lalu, masuk  ke bagian hard disk dan setting kapasitasnya sebesar 25.00 GB
+7. Lanjutkan pada menu “Network” pada ubuntu server yang telah di unduh dengan menyetting adapter 1 dan adapter 2
+8. Klik “Start” untuk mulai penginstallan ubuntu server. Pilih “Try or Install Ubuntu Server” lalu done dan klik enter
+9. Tampilan setelah di enter, tunggu hingga proses selesai
+10. Pilih bahasa “English” lalu klik enter
+11. Proses konfigurasi jaringan. Tunggu hingga alamat IP address muncul, lalu done dan klik enter
+12. Pilih done dan klik enter untuk melanjutkan
+13. Pilih done dan klik enter untuk melanjutkan
+14. Pilih done dan klik enter untuk melanjutkan
+15. Pilih continue dan klik enter untuk melanjutkan
+16. Selanjutnya masuk pada pembuatan akun ubuntu server, pilih done dan klik enter
+17. Pilih continue dan klik enter untuk melanjutkan
+18. Proses penginstallan SSH server, pilih done lalu enter 
+19. Pilih “Reboot Now” lalu enter
+20. Selanjutnya login sesuai username dan password yang telah di buat
+21.Lanjutkan dengan menjalankan perintah berikut:
+a. ls
+b. ssh
+c. ifconfig untuk melihat ssh
+d. sudo apt install net-tools untuk menginstall net-tools, lalu enter dan masukkan password
+22. Proses menginstall net-tools telah berhasil, lalu klik “clear”
+23.Jalankan perintah ifconfig untuk melihat alamat IP address (172.16.45.181) untuk proses konfigurasi ubuntu dengan puTTy
+
+
